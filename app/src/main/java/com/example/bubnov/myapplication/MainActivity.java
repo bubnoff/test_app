@@ -21,8 +21,6 @@ public class MainActivity extends AppCompatActivity {
         s_list.addInTail(n3);
 
         s_list.removeAll(22);
-        Log.e("TAG", " - " + s_list.head.value);
-        Log.e("TAG", " - " + s_list.head.next);
 
 
     }

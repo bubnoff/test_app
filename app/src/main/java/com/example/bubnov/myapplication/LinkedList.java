@@ -1,7 +1,4 @@
 package com.example.bubnov.myapplication;
-
-import android.util.Log;
-
 import java.util.ArrayList;
 
 class LinkedList {
@@ -105,8 +102,6 @@ class LinkedList {
                 if(_nodeAfter == node){
                     _nodeToInsert.next = node.next;
                     node.next = _nodeToInsert;
-                    Log.e("TAG3", " - " + node.value);
-
                 }
                 node = node.next;
             }
