@@ -4,7 +4,7 @@ import android.util.Log;
 
 import java.util.ArrayList;
 
-public class LinkedList {
+class LinkedList {
     public Node head;
     public Node tail;
 
@@ -114,3 +114,14 @@ public class LinkedList {
     }
 
 }
+
+class Node {
+    public int value;
+    public Node next;
+
+    public Node(int _value) {
+        value = _value;
+        next = null;
+    }
+}
+
